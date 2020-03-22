@@ -1,6 +1,14 @@
-# eslint-plugin-lodashtonative
+# eslint-plugin-lodash-to-native
 
-Description
+Go from lodash map to native array map.
+
+```
+//from:
+_.map([1, 2, 3, 4], (el) => console.log(el))
+
+// to:
+[1, 2, 3, 4].map((el) => console.log(el))
+```
 
 ## Installation
 
